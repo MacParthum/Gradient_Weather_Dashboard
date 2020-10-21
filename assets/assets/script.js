@@ -11,8 +11,8 @@ const fiveDayWeather = city => {
                 if (data.list[i].dt_txt.indexOf("15:00:00") !== -1) {
                     // create html elements for a bootstrap card
                     var col = $("<div>").addClass("col-md-2");
-                    var card = $("<div>").addClass("card bg-primary text-white");
-                    var body = $("<div>").addClass("card-body p-2");
+                    var card = $("<div>").addClass("card bg-forecast text-primary");
+                    var body = $("<div>").addClass("card-body p-3");
 
                     var title = $("<h5>").addClass("card-title").text(new Date(data.list[i].dt_txt).toLocaleDateString());
 
@@ -33,7 +33,7 @@ function showWeather(city) {
         .then(function (res) {
             $("#currentWeather").empty()
             console.log(res)
-            var jumbotron = $("<div>").addClass("jumbotron bg-primary text-white")
+            var jumbotron = $("<div>").addClass("jumbotron bg-jumbotron text-primary")
             var cityName = $("<h2>").text(res.name + " (" + moment.unix(res.dt).format('L') + ')')
             var img = $("<img>").attr("src", "https://openweathermap.org/img/wn/" + res.weather[0].icon + ".png")
             cityName.append(img)
