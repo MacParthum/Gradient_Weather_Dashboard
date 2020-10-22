@@ -1,0 +1,59 @@
+body {
+  font-family: "Bangers", cursive;
+}
+h1 {
+  font-size: 100px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+h2 {
+    font-size: 40px;
+      background: -webkit-linear-gradient(#eee, #333);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+  }
+  
+h3 {
+    font-size: 40px;
+      background: -webkit-linear-gradient(#eee, #333);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+  }
+  
+    
+h3 {
+    font-size: 40px;
+      background: -webkit-linear-gradient(#eee, #333);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+  }
+      
+h5 {
+    font-size: 25px;
+      background: -webkit-linear-gradient(#eee, #333);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+  }
+  
+.bg-header {
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027) !important;
+}
+.bg-search {
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027) !important;
+}
+.bg-main {
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027) !important;
+}
+/* This adds gradient property to the cards created by the script.js. Since its the same gradient as the background it gives a transparent effect to the Jumbotron card.*/
+.bg-jumbotron {
+  background: linear-gradient(to left, #2c5364, #203a43, #0f2027) !important;
+}
+.bg-forecast {
+  background: linear-gradient(to left, #2c5364, #203a43, #0f2027) !important;
+}
+.btn {
+  background: linear-gradient(#000 0%, #666, #000) !important;
+}
+
